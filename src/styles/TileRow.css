@@ -1,0 +1,8 @@
+.TileRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Tile {
+    font-size:70px;
+}
