@@ -18,12 +18,12 @@ function Casino() {
     return randomFruit;
   }
 
-
-  
   return (
     <div className='Casino'>
       <h1>Welcome to cakes casino</h1>
-      <TileRow fruit1={getRandomFruit()} fruit2={getRandomFruit()} fruit3={getRandomFruit()} />
+      <div className='Pokies-machine'>
+        <TileRow fruit1={getRandomFruit()} fruit2={getRandomFruit()} fruit3={getRandomFruit()} />
+      </div>
     </div>
   )
 }

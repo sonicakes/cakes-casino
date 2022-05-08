@@ -1,3 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .TileRow {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -5,4 +9,27 @@
 
 .Tile {
     font-size:70px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+.Pokies-machine {
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    width: 70vw;
+    padding: 20px;
+}
+.App {
+display: flex;
+justify-content: center;
+}
+.loser {
+    background-color: red;
+}
+.winner{
+    background-color: green;
 }
